@@ -80,8 +80,8 @@ C:\Users\ogalaviz\source\repos\EncuestasMVC\EncuestasMVC\bin\es\System.Web.Razor
 C:\Users\ogalaviz\source\repos\EncuestasMVC\EncuestasMVC\bin\es\System.Web.WebPages.resources.dll
 C:\Users\ogalaviz\source\repos\EncuestasMVC\EncuestasMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\ogalaviz\source\repos\EncuestasMVC\EncuestasMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ogalaviz\source\repos\EncuestasMVC\EncuestasMVC\obj\Debug\EncuestasMVC.csprojAssemblyReference.cache
 C:\Users\ogalaviz\source\repos\EncuestasMVC\EncuestasMVC\obj\Debug\EncuestasMVC.csproj.CoreCompileInputs.cache
 C:\Users\ogalaviz\source\repos\EncuestasMVC\EncuestasMVC\obj\Debug\EncuestasMVC.csproj.CopyComplete
 C:\Users\ogalaviz\source\repos\EncuestasMVC\EncuestasMVC\obj\Debug\EncuestasMVC.dll
 C:\Users\ogalaviz\source\repos\EncuestasMVC\EncuestasMVC\obj\Debug\EncuestasMVC.pdb
-C:\Users\ogalaviz\source\repos\EncuestasMVC\EncuestasMVC\obj\Debug\EncuestasMVC.csprojAssemblyReference.cache

@@ -9,11 +9,15 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color: lightgreen;">
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: dimgray;">
         <div class="container-fluid">
-            @Html.ActionLink("ADMINISTRADOR", "Index", "Home", new { }, new { @class = "navbar-brand" })
+            @Html.ActionLink("VIGILANCIA", "Index", "Home", new { }, new { @class = "navbar-brand" })
             @Html.ActionLink("Ayuda", "Manual_de_Usuario_SV_IMO", "Home", new { }, new { @class = "navbar-brand", target = "_blank" })
-
+            @Html.ActionLink("VIGILANCIA", "Index", "Home", new { }, new { @class = "navbar-brand" })
+            @Html.ActionLink("Ayuda", "Manual_de_Usuario_SV_IMO", "Home", new { }, new { @class = "navbar-brand", target = "_blank" })
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
     </nav>
     <div class="container body-content">
