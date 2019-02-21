@@ -1,6 +1,8 @@
 ﻿
 /* BASIC */
-
+a:hover {
+    background-color: dimgray;
+}
 html {
     background-color: #56baed;
 }
@@ -79,7 +81,7 @@ h2.active {
 
 
 
-/* FORM TYPOGRAPHY*/
+FORM TYPOGRAPHY
 
 input[type=button], input[type=submit], input[type=reset] {
     background-color: #56baed;
