@@ -1,0 +1,64 @@
+﻿@model IEnumerable<EncuestasMVC.Models.ENC_USUARIOS>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDUSUARIO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDROLES)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NOMBREUSUARIO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PASSWORD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FECHACREACION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ESTATUS)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDUSUARIO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDROLES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NOMBREUSUARIO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PASSWORD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FECHACREACION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ESTATUS)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Información", "Informacion", new {  id=item.IDUSUARIO }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
