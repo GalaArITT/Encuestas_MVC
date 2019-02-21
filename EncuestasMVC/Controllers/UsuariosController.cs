@@ -19,7 +19,7 @@ namespace EncuestasMVC.Controllers
             modelo_Datos = response.Content.ReadAsAsync<IEnumerable<ENC_USUARIOS>>().Result;
             return View(modelo_Datos);
         }
-        public ActionResult Informacion(int id)
+        public ActionResult Informacion(decimal id)
         {
             HttpResponseMessage response = GlobalVariables.WebApliClient.GetAsync("Enc_Empleados/"+ id.ToString()).Result;
             return View(response.Content.ReadAsAsync<ENC_EMPLEADOS>().Result);

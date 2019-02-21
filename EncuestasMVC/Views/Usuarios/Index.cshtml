@@ -1,8 +1,7 @@
 ﻿@model IEnumerable<EncuestasMVC.Models.ENC_USUARIOS>
 
 @{
-    ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+
 }
 
 <h2>Index</h2>
@@ -55,7 +54,7 @@
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Información", "Informacion", new {  id=item.IDUSUARIO }) |
+            @Html.ActionLink("Información", "Informacion", new {  id=Convert.ToInt32(item.IDUSUARIO) }) |
             @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
         </td>
     </tr>
