@@ -21,7 +21,7 @@ namespace EncuestasMVC.Models
         public string EMAIL { get; set; }
         public string TELEFONO { get; set; }
     }
-    public partial class ENC_ENCUESTA
+    public class ENC_ENCUESTA
     {
 
         public decimal IDENCUESTA { get; set; }
@@ -51,31 +51,31 @@ namespace EncuestasMVC.Models
         public decimal IDRESPUESTABOOLEAN { get; set; }
         public string RESPUESTA { get; set; }
     }
-    public partial class ENC_RESPUESTACATALOGO
+    public class ENC_RESPUESTACATALOGO
     {
         public decimal IDRESPUESTACATALOGO { get; set; }
         public decimal IDTIPOCAT { get; set; }
         public string RESPUESTANEGATIVA { get; set; }
     }
 
-    public partial class ENC_RESPUESTANUMERO
+    public class ENC_RESPUESTANUMERO
     {
         public decimal IDRESPUESTANUMERO { get; set; }
         public decimal RESPUESTANUMERICO { get; set; }
     }
 
-    public partial class ENC_RESPUESTATEXTO
+    public class ENC_RESPUESTATEXTO
     {
         public decimal IDRESPUESTATEXTO { get; set; }
         public string RESPUESTA { get; set; }
     }
 
-    public partial class ENC_ROLES
+    public class ENC_ROLES
     {
         public decimal IDROLES { get; set; }
         public string TIPOROL { get; set; }
     }
-    public partial class ENC_TIPOCATALOGO
+    public class ENC_TIPOCATALOGO
     {
         public decimal IDTIPOCAT { get; set; }
         public string TIPOCATALOGO { get; set; }
